@@ -1,0 +1,139 @@
+body {
+    background-image: url("file:///c:/Users/jsmit/Basic-Portfolio/assets/images/white-waves.png");
+  }
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    font-family: "Georgia", Times, Times New Roman, serif;
+}
+
+ul {
+  
+    top: 0;
+    width: 100%;
+  }
+
+li {
+    margin-right: 250px;
+    border-right:1px solid #bbb;
+}
+
+li a {
+    
+    float: right; 
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px ;
+    text-decoration: none;
+}
+
+aside {
+    float: left;
+    top: 0; 
+    padding: 20px;
+    margin-left: 250px;
+    margin-top: 0px;
+    color: #ffffff;
+    background-color: #4aaaa5;  
+    font-family: "Georgia", Times, Times New Roman, serif;
+  }
+
+
+#full {
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 250px; 
+    text-align: left;
+    padding: 20px;
+    width: 960px;
+    float: left; 
+    color:  #777777;
+    background: #ffffff;
+    font-family: "Arial", 'Helvetica Neue', Helvetica, sans-serif;
+  }
+
+  #full h1 {
+      color: #4aaaa5; 
+      border-bottom: 2px solid #cccccc;
+
+  }
+
+  #pic {
+      float: left;
+      margin: 10px;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    width: 100%;
+    clear: both;
+    padding: 10px;
+    background: #666666;
+    color: #777777;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    text-align: center;
+  }
+
+  /*Contact CSS*/
+
+  input[type=text]{
+      width: 100%;
+
+  }
+
+  /*Portfolio CSS*/
+  
+#port {
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 250px; 
+    text-align: left;
+    padding: 20px;
+    width: 960px;
+    float: left; 
+    color:  #777777;
+    background: #ffffff;
+    
+}
+
+#port img {
+    padding: 20px;
+    position: relative;
+}
+
+#port h1 {
+    color: #4aaaa5; 
+      border-bottom: 2px solid #cccccc;
+}
+  
+.text-block {
+    position: absolute;
+    /*bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;*/
+   
+}
+
+.imageContainer {
+    width:200px; 
+       height:200px; 
+       background-image: url(assets/images/abstract-q-c-640-480-6.jpg);
+}
+
